@@ -163,9 +163,14 @@ We will implement and achieve the following:
 
 - This extends the `base.html` template
 
-        {% extends "base.html" %} {% block title %} Home Page {% endblock %}
+        {% extends "base.html" %} 
+        
+        {% block title %} 
+            Home Page 
+        {% endblock %}
+
         {% block content %}
-        <p>This is the home page</p>
+            <p>This is the home page</p>
         {% endblock %}
 
 4. Do the following to render the template
